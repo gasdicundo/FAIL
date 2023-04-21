@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Changa+One&family=Inter&family=Raleway:wght@100&display=swap');
+
+header {
+    background-color: #BDCDD6;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-transform:uppercase;
+    flex-wrap: wrap;
+    /*display: inline;
+    padding: 25px;
+    position: relative;
+    bottom: 50px;
+    font-family: 'Raleway', sans-serif;*/
+    /* margin-right: 500px; */
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+.section-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 50px;
+    flex-flow: row wrap
+    /* width: 476px;
+    height: 224px;
+    position: relative;
+    left: 650px;
+    top: 100px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 45px; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    flex-flow: row wrap;
+    text-transform:uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    flex-flow: row wrap
+}
+
+h3 {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+    flex-flow: row wrap
+    /* width: 400px; */
+}
+
+
+.imgarriba {
+    display: flex;
+    gap: 800px;
+    margin-top: -450px;
+    margin-left: 100px;
+    flex-flow: row wrap
+}
+
+.imgabajo {
+    display: flex;
+    gap: 129px;
+    margin-left: 100px;
+    margin-top: 50px;
+    flex-flow: row wrap
+}
+
+.img1 {
+    width: 409px;
+    height: 550px;
+
+
+    /* width: 409px;
+    height: 550px;
+    position: absolute;
+    top: 200px;
+    left: 50px; */
+}
+
+.img2 {
+    width: 500px;
+    height: 439px;
+    /* width: 500px;
+    height: 439px;
+    position: absolute;
+    top: 780px;
+    left: 50px; */
+}
+
+.img3 {
+    width: 500px;
+    height: 439px;
+
+    /* width: 500px;
+    height: 439px;
+    position: absolute;
+    top: 780px;
+    left: 700px; */
+}
+
+.img4 {
+    width: 500px;
+    height: 439px;
+    flex-flow: row wrap;
+    /* width: 500px;
+    height: 439px;
+    position: absolute;
+    top: 780px;
+    right: 50px; */
+}
+
+.img5 {
+    width: 550px;
+    height: 500px;
+    flex-flow: row wrap;
+    /* width: 550px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    right: 50px; */
+}
+
+main {
+    margin-bottom: 60px;
+    flex-flow: row wrap;
+}
+
+body{
+    flex-flow: row wrap
+}
+footer {
+    position: static;
+    margin-bottom: 0%;
+    background-color: #4D4D4D;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 0px;
+    bottom: 0;
+    color: white;
+
+}
+
+
+.logosfooter {
+    width: 300px;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+
+.textofooter {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 130px;
+    top: 5px;
+    line-height: 45px;
+}
+
+.section-3 {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 450px;
+    top: 175px;
+}
+
+.facebook {
+    width: 35px;
+    position: relative;
+    left: 450px;
+    top: 20px;
+}
+
+.instagram {
+    width: 35px;
+    position: relative;
+    left: 431px;
+    top: 45px;
+}
+
+.whatsapp {
+    width: 35px;
+    position: relative;
+    left: 412px;
+    top: 70px
+}
+
+.telefono {
+    width: 35px;
+    position: relative;
+    top: 45px;
+    left: 75px;
+}
+
+.correo {
+    width: 35px;
+    position: relative;
+    top: 92px;
+    left: 40px;
+
+}
+
+.ubicacion {
+    width: 35px;
+    position: relative;
+    top: 135px;
+}
+
+.arquitectura {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    /* width: 400px; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.tituloarquitectura {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+    /* position: relative;
+    top: 40px;
+    font-size: 70px; */
+
+}
+
+.tituloarquitectura2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    /* position: relative;
+    top: 80px; */
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.sectionarq1 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 450px;
+    text-align: center;
+    padding-top: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.sectionarq2 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 250px;
+    text-align: center;
+    padding-top: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tituloproyecto{
+    padding-top: 20px;
+}
+
+.proyectos {
+    width: 500px;
+}
+
+.card1  {
+    display: flex;
+    gap: 60px;
+    margin-left: 150px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.card2{
+    display: flex;
+    gap: 60px;
+    margin-left: 150px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.contacto{
+    display: flex;
+    margin-left: 600px;
+    width: 50%;
+    padding-top: 150px;
+}
+
+.consulta{
+    display: flex;
+    padding-top: 10px;
+    /* gap: 10px; */
+    flex-direction: column;
+    margin-left: 600px;
+    width: 30%;
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+.botones{
+    position: relative;
+    left: 600px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+.texto{
+    height: 150px;
+    text-align: start;
+}
+
+.mujer{
+    display: flex;
+    width: 300px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.hombre{
+    display: flex;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.nosotros {
+    padding-top: 50px;
+}
+.nosotros1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.nosotros2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.biografia{
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.fotosproyectos{
+    flex-wrap: wrap;
+}
+
+div{
+    flex-wrap: wrap;
+}
