@@ -15,6 +15,16 @@ header {
     top: 0;
 }
 
+.navbar li a {
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
 .main-index{
     display: grid;
     width: 100%;
