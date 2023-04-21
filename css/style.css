@@ -153,3 +153,10 @@ footer {
     .img5{
         grid-area: img5;
     }
+    .arquitectura {
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        /* width: 400px; */
+        text-align: center;
+        flex-wrap: wrap;
+    }
