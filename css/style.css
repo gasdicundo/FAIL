@@ -13,6 +13,7 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
+    flex-wrap: row wrap;
 }
 
 .navbar li a {
@@ -132,7 +133,8 @@ footer {
     align-self: flex-end;
     padding-bottom: 0px;
     bottom: 0;
-    color: white;}
+    color: white;
+}
 
     .facebook {
         width: 35px;
@@ -285,4 +287,110 @@ footer {
         padding-top: 50px;
         gap: 30px;
         flex-wrap: wrap; */
+    }
+    .tituloproyecto{
+        padding-top: 20px;
+    }
+    
+    .proyectos {
+        width: 500px;
+        height: 350px;
+    }
+    
+    .fotosproyectos{
+        display: grid;
+        width: 100%;
+        padding-left: 150px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "card1"
+        "card2"
+    ;
+    }
+
+    .card1{
+        grid-area: card1;
+        padding-top: 30px;
+        display: flex;
+        gap: 60px;
+    }
+
+    .card2{
+        grid-area: card2;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        display: flex;
+        gap: 60px;
+    }
+
+    .mujer{
+        display: flex;
+        width: 300px;
+        padding-bottom: 50px;
+        margin: auto;
+    }
+    
+    .hombre{
+        display: flex;
+        padding-bottom: 50px;
+        margin: auto;
+    }
+    
+    .nosotros {
+        padding-top: 50px;
+    }
+    .nosotros1{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+    }
+    
+    .nosotros2{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 40PX;
+    }
+    
+    .biografia{
+        width: 50%;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+    }
+    
+    .contacto{
+        display: flex;
+        margin-left: 600px;
+        width: 50%;
+        padding-top: 150px;
+    }
+    
+    .consulta{
+        display: flex;
+        padding-top: 10px;
+        /* gap: 10px; */
+        flex-direction: column;
+        margin-left: 600px;
+        width: 30%;
+        padding-bottom: 20px;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        text-transform:uppercase;
+    }
+    
+    .botones{
+        position: relative;
+        left: 600px;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        text-transform:uppercase;
+    }
+    
+    .texto{
+        height: 150px;
+        text-align: start;
     }
