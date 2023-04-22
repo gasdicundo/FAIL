@@ -123,12 +123,13 @@ h3 {
 }
 
 footer {
-    position: static;
-    margin-bottom: 0%;
+    position: static;    
+    margin-bottom: 0px;
     background-color: #4D4D4D;
     height: 200px;
     width: 100%;
     display: flex;
+    align-self: flex-end;
     padding-bottom: 0px;
     bottom: 0;
     color: white;}
